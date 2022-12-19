@@ -21,7 +21,7 @@ Grande parte do nosso material é em inglês para familiarizar a todos com a lin
 
 Antes de iniciarmos o nosso workshop, segue aqui alguns passo-a-passos gravados do que vamos precisar.
 
-Passo 1
+#### Passo 1
 
 Vamos usar MongoDB como nossa fonte de dados, e vamos utilizar o MongoDB Atlas.
 
@@ -32,7 +32,7 @@ Link do MongoDB:[Shared - ForeverFree]
 * https://www.mongodb.com/cloud
 
 
-Passo 2
+#### Passo 2
 
 Agora vamos criar nossa conta no Airbyte Cloud.
 
@@ -44,7 +44,7 @@ Link do Airbyte:[Trial]
 
 
 
-Passo 3
+#### Passo 3
 
 Depois de criados a parte de ingestão, vamos para o armazenamento no Snowflake.
 
@@ -55,7 +55,7 @@ Link do Snowflake:[Trial - Standard]
 * https://www.snowflake.com/en/
 
 
-Passo 4
+#### Passo 4
 
 
 Um das tecnologias mais interessantes, vamos ver como criamos o DBT Cloud.
@@ -67,7 +67,7 @@ Link do DBT Cloud: [One Developer - ForeverFree]
 * https://www.getdbt.com/
 
 
-Passo 5
+#### Passo 5
 
 Orquestração de pipelines com Apache Airflow usando Astro CLI.
 
