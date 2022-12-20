@@ -7,14 +7,14 @@ models:
         tests:
           - not_null
 
-  - name: src_payments
+  - name: payments
     columns:
       - name: user_id
         tests:
           - unique
           - not_null
 
-  - name: src_user
+  - name: user
     columns:
       - name: id
         tests:
@@ -28,5 +28,5 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('src_payments')
+              to: ref('payments')
               field: user_id
