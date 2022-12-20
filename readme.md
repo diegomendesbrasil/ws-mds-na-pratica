@@ -1,4 +1,4 @@
-# Seja bem-vindo(a) ao repositório de preparação do workshop Construindo uma Stack de Dados Moderna com Airbyte, Airflow, DBT & Snowflake NA PRÁTICA!
+# Seja Bem-Vindo(a) ao Repositório de Preparação do Workshop Construindo uma Stack de Dados Moderna com Airbyte, Airflow, DBT & Snowflake na Prática!
 Saiba como criar o seu ambiente local para acompanhar o workshop!
 <div align="center">
 
