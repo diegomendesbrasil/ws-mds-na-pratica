@@ -12,7 +12,7 @@ payments as (
 
     credit_card_usage_per_country as (
 
-        select ps.country, ps.currency, ps.credit_card_type, count(*)
+        select ps.country, ps.currency, ps.credit_card_type, count(*) as amount
         from users as pu
         inner join payments as ps using(user_id)
         group by ps.country, ps.currency, ps.credit_card_type
