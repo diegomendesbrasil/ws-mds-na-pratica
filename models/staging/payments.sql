@@ -1,3 +1,10 @@
+{{ config(materialized='view') }}
+
+with src_payments as
+(
+    select *
+    from workshop.mongodb_payments
+)
 select
     ps.user_id,
     ps.city,
@@ -6,4 +13,4 @@ select
     ps.currency,
     ps.credit_card_type,
     ps.subscription_price
-from workshop.mongodb_payments as ps
+from src_payments as ps

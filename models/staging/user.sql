@@ -1,3 +1,10 @@
+{{ config(materialized='view') }}
+
+with src_user as
+(
+    select *
+    from workshop.mongodb_user
+)
 select 
     pu.id, 
     pu.user_id, 
@@ -6,4 +13,4 @@ select
     pu.employment, 
     pu.credit_card, 
     pu.subscription
-from workshop.mongodb_user as pu
+from src_user as pu
